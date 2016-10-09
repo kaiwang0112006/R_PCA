@@ -1,0 +1,4 @@
+input<-read.csv('D:\\pca_in.csv',head=TRUE)
+input.pca2 <- princomp(input,cor=TRUE)
+write.csv(input.pca2$score,file = "D:\\pc12.csv")
+plot(input.pca2$score[,1:2],col='red')

@@ -1,0 +1,7 @@
+安装R，两种方法运行PCA脚本：
+1.可以把R_PCA_console.r的四行命令粘贴到R界面里面运行，其中，把'D:\\pca_in.csv'替换为输入的文件，"D:\\pc12.csv"为要输出的主成分矩阵。
+
+2.直接在cmd命令行运行：
+Rscript R_PCA_script.r d:\pca_in.csv d:\pc12.csv d:\a.jpg
+
+输出的d:\pc12.csv就是主成分与化合物的矩阵,用第一第二主成分在origin做图即可
